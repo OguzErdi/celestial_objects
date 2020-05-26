@@ -1,4 +1,4 @@
-class Data {
+class Strings {
   static const String APP_NAME = "Celestical Obects";
 
   static const List<String> PLANETS = [
@@ -23,15 +23,15 @@ class Data {
     "Neptune age"
   ];
 
-    static const List<String> PLANETS_ATTRIBUTES = [
-    "\tMercury attributes\n\n",
-    "\tVenus attributes\n\n",
-    "\tEarth attributes\n\n",
-    "\tMars attributes\n\n",
-    "\tJupiter attributes\n\n",
-    "\tSaturn attributes\n\n",
-    "\tUranus attributes\n\n",
-    "\tNeptune attributes\n\n",
+    static const List<String> PLANETS_DETAILS = [
+    "\tMercury details\n\n",
+    "\tVenus details\n\n",
+    "\tEarth details\n\n",
+    "\tMars details\n\n",
+    "\tJupiter details\n\n",
+    "\tSaturn details\n\n",
+    "\tUranus details\n\n",
+    "\tNeptune details\n\n",
   ];
 
 
