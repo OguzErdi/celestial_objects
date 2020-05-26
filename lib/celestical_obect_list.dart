@@ -13,7 +13,7 @@ class CelesticalObjectList extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(Strings.APP_NAME),
-        backgroundColor: Colors.indigo.shade900,
+        backgroundColor: Colors.blueGrey[900],
       ),
       body: generateCelestialObjectList(planets),
     );
@@ -49,12 +49,12 @@ class CelesticalObjectList extends StatelessWidget {
   Widget listItemCelestialObject(context, CelestialObject celestialObject) {
     return Card(
       elevation: 4,
-      color: Colors.indigo.shade900,
+      color: Colors.blueGrey[900],
       child: ListTile(
         leading: Image.asset(
           celestialObject.icon,
-          width: 64,
-          height: 64,
+          width: 100,
+          height: 150,
         ),
         title: Text(
           celestialObject.name,
