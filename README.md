@@ -1,6 +1,6 @@
 # Celestial Objects
 
-A new Flutter project that list Celestial Objects. İnitially, has Planets. Then it will go with addition of Galaxys, Nebulas etc.
+A new Flutter project that list Celestial Objects. Initially has Planet, then it will go with addition of Galaxys, Nebulas etc.
 
 ## Getting Started
 
