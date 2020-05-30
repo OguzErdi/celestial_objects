@@ -5,26 +5,49 @@ import 'package:palette_generator/palette_generator.dart';
 
 import 'models/planet.dart';
 
-class CelesticalObjectDetail extends StatelessWidget {
+class CelesticalObjectDetail extends StatefulWidget {
   int index;
-  Planet planet;
 
   CelesticalObjectDetail(this.index);
 
   @override
-  Widget build(BuildContext context) {
-    planet = Repository().planets[index];
-    PaletteGenerator paletteGenerator;
+  _CelesticalObjectDetailState createState() => _CelesticalObjectDetailState();
+}
 
+class _CelesticalObjectDetailState extends State<CelesticalObjectDetail> {
+  Planet planet;
+  PaletteGenerator paletteGenerator;
+  Color pimaryColor;
+  Color backgroundColor;
+
+  @override
+  void initState() {
+    super.initState();
+    
+    planet = Repository().planets[widget.index];
+    getDominantColor();
+  }
+
+  void getDominantColor() {
     Future<PaletteGenerator> fPaletteGenerator =
         PaletteGenerator.fromImageProvider(
             AssetImage(planet.picture)); //future, async call gibi
 
     fPaletteGenerator.then((value) {
       paletteGenerator = value;
-      debugPrint("Seçilen Renl: ${paletteGenerator.dominantColor.color.toString()}");
-    });
+      debugPrint("Seçilen Primary Color: ${paletteGenerator.vibrantColor.color.toString()}");
+      debugPrint("Seçilen Bakcground Color: ${paletteGenerator.darkVibrantColor.color.toString()}");
 
+      // burda, yeni renk ile ekranı tekrar çizmen lazım
+      setState(() {
+        pimaryColor = paletteGenerator.vibrantColor.color;
+        backgroundColor = paletteGenerator.darkVibrantColor.color;
+      });
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
     return Scaffold(
       body: CustomScrollView(
         primary: true,
@@ -33,7 +56,7 @@ class CelesticalObjectDetail extends StatelessWidget {
             expandedHeight: 600,
             pinned: true,
             primary: true,
-            backgroundColor: Colors.orange,
+            backgroundColor: pimaryColor ?? Colors.pink,
             flexibleSpace: FlexibleSpaceBar(
               background: Image.asset(
                 planet.picture,
@@ -48,11 +71,11 @@ class CelesticalObjectDetail extends StatelessWidget {
           SliverToBoxAdapter(
             child: Container(
               padding: const EdgeInsets.all(2.0),
-              color: Colors.orange,
+              color: pimaryColor ?? Colors.pink,
               child: SingleChildScrollView(
                 child: Container(
                   padding: EdgeInsets.all(15),
-                  color: Colors.black,
+                  color: backgroundColor ?? Colors.pink,
                   child: Text(planet.detail,
                       style: TextStyle(fontSize: 18, color: Colors.white)),
                 ),
