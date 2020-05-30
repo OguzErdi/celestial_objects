@@ -1,8 +1,9 @@
 import 'package:celestial_objects/celestical_obect_detail.dart';
 import 'package:celestial_objects/celestical_obect_list.dart';
+import 'package:celestial_objects/palette_generator_test.dart';
 import 'package:flutter/material.dart';
 
-main() => runApp(MyApp());
+main() => runApp(MyAppPalette());
 
 class MyApp extends StatelessWidget {
   @override

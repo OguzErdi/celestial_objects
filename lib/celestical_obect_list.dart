@@ -18,7 +18,9 @@ class CelesticalObjectList extends StatelessWidget {
         title: Text(Strings.APP_NAME),
         backgroundColor: Colors.blueGrey[900],
       ),
-      body: generateCelestialObjectList(planets),
+      body: Container(
+        color: Colors.black,
+        child: generateCelestialObjectList(planets)),
     );
   }
 

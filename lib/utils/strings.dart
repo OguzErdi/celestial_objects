@@ -24,14 +24,141 @@ class Strings {
   ];
 
     static const List<String> PLANETS_DETAILS = [
-    "\tMercury details\n\n",
-    "\tVenus details\n\n",
-    "\tEarth details\n\n",
-    "\tMars details\n\n",
-    "\tJupiter details\n\n",
-    "\tSaturn details\n\n",
-    "\tUranus details\n\n",
-    "\tNeptune details\n\n",
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n",
+
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n",
+
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n",
+
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n",
+
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n",
+
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n",
+
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n",
+
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n"
+    "\tLorem Nulla ipsum culpa fugiat aliqua.\n\n",
   ];
 
 
